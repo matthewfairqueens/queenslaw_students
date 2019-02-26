@@ -1,0 +1,41 @@
+body.queenslaw-sub-site #branding {
+  .block-logo svg {
+      height: 40px;
+  }
+  .block-lsscrest svg {
+      height: 80px;
+  }
+}
+
+
+#header {
+  > div {
+    .header-content {
+      #block-mainnavigation {
+        .small-screen-nav-trigger {
+          background: none;
+          content: '\f0c9';
+          font-family: FontAwesome;
+          color: #11335d;
+          display:none;
+          overflow: unset;
+          right: 20px;
+          text-indent: unset;
+
+
+        }
+        .small-screen-nav-trigger:before {
+          content: '\f0c9';
+          font-family: FontAwesome;
+          color: #fff;
+          display: block;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}
+
+#header > div #branding {
+  top: 0px;
+}
