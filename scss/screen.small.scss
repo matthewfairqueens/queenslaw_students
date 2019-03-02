@@ -11,3 +11,10 @@ body.queenslaw-sub-site #branding {
 #header {
   height: inherit;
 }
+
+#header > div .header-content #block-mainnavigation .small-screen-nav-trigger {
+	top: 30px;
+	height: 15px;
+	width: 24px;
+	overflow: hidden;
+}
